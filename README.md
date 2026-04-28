@@ -1,4 +1,4 @@
-Projeto de desenvolvimento de uma API REST que recebia e tratava de transações, assim como devolvia estatísticas sobre estas.  
+Projeto de desenvolvimento de uma API REST que recebe transações, assim como devolve estatísticas sobre estas.  
 
 ------------------------------------------------------------------------------------------------------------
 
