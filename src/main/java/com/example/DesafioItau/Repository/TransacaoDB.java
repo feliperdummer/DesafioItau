@@ -47,7 +47,7 @@ public class TransacaoDB {
         }
         long count = 0;
         Double sum = 0.0, avg = 0.0, minValue = Double.MAX_VALUE, maxValue = Double.MIN_VALUE;
-        OffsetDateTime now = OffsetDateTime.parse("2026-04-28T15:30:59+02:00");
+        OffsetDateTime now = OffsetDateTime.now();
         for (Transacao transacao : lista) {
             if (Duration.between(now, transacao.getDataHora()).abs().getSeconds() <= intervalo) {
                 count++;
